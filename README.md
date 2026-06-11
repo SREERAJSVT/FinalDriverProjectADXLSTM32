@@ -1,5 +1,4 @@
 
-```markdown
 # Embedded Software Project: STM32 Peripheral Drivers (Bare-Metal)
 
 **Author:** Sreeraj Krishna K 
@@ -10,7 +9,7 @@
 This repository contains a bare-metal embedded software project demonstrating the implementation and application of standard MCU peripheral drivers (GPIO, USART, and SPI). The code is written entirely from scratch without the use of the ST Hardware Abstraction Layer (HAL). 
 
 The primary application demonstrates reading raw X, Y, and Z axis data from an ADXL345 accelerometer via a custom SPI driver, processing that data, and outputting it to a PC serial terminal via a custom USART driver using standard C `printf` redirection. It also features GPIO-driven LED feedback based on physical sensor tilt thresholds.
-<img width="900" height="1600" alt="image" src="https://github.com/user-attachments/assets/717c1d4e-5cab-4fdc-895c-090f5cacd566" />
+
 
 ## 2. Project Directory Structure
 Based on the `FinalDriverProjectADXLSTM32` environment:
@@ -56,7 +55,7 @@ The project is configured for the **Nucleo-F446RE** development board.
 | LED 1 | PC0 | Tilt Warning Animation |
 | LED 2 | PC1 | Tilt Warning Animation |
 | LED 3 | PC2 | Tilt Warning Animation |
-
+<img width="900" height="1600" alt="image" src="https://github.com/user-attachments/assets/717c1d4e-5cab-4fdc-895c-090f5cacd566" />
 ### **USART (Debug Console)**
 
 | Component | STM32F446RE Pin | Function |
