@@ -10,6 +10,7 @@
 This repository contains a bare-metal embedded software project demonstrating the implementation and application of standard MCU peripheral drivers (GPIO, USART, and SPI). The code is written entirely from scratch without the use of the ST Hardware Abstraction Layer (HAL). 
 
 The primary application demonstrates reading raw X, Y, and Z axis data from an ADXL345 accelerometer via a custom SPI driver, processing that data, and outputting it to a PC serial terminal via a custom USART driver using standard C `printf` redirection. It also features GPIO-driven LED feedback based on physical sensor tilt thresholds.
+<img width="900" height="1600" alt="image" src="https://github.com/user-attachments/assets/717c1d4e-5cab-4fdc-895c-090f5cacd566" />
 
 ## 2. Project Directory Structure
 Based on the `FinalDriverProjectADXLSTM32` environment:
@@ -73,12 +74,13 @@ The project is configured for the **Nucleo-F446RE** development board.
 6. Click the **Debug icon** (green bug) to flash the code to the MCU.
 7. Open a serial terminal (PuTTY, Tera Term, or the STM32CubeIDE Console) connected to the ST-Link Virtual COM port at **115200 Baud Rate**.
 8. Press the physical **RESET (Black)** button on the Nucleo board to start execution.
+<img width="962" height="1138" alt="image" src="https://github.com/user-attachments/assets/cff4d4a8-5415-4d0b-9782-c70a675541c8" />
 
 ## 5. Video Demonstration
 
 [Insert Your YouTube/Drive Link Here]
 
-* **0:00 - 0:30:** Hardware setup overview (Nucleo board, ADXL345 wiring, LEDs).
+* **0:00 - 0:30:** Hardware setup overview (Nucleo board, ADXL345 wiring).
 * **0:30 - 1:30:** Codebase overview (showing custom driver files and main loop).
 * **1:30 - 2:30:** Live demonstration of USART `printf` outputting live sensor data.
 * **2:30 - 3:00:** Live demonstration of the GPIO LED sweep triggering when the sensor is tilted past the X-axis threshold.
