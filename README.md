@@ -96,6 +96,7 @@ Because the target board is the STM32F446RE, specific clock speeds and Alternate
 This project reinforced the importance of modular architecture. By separating the low-level SPI bit-banging (`spi.c`) from the high-level sensor commands (`adxl345.c`), the codebase remains clean and reusable. It also demonstrated the power of polling-based bare-metal programming for deep hardware understanding, free from the "black box" abstraction of HAL libraries.
 
 ```
+<img width="1915" height="1138" alt="image" src="https://github.com/user-attachments/assets/1590704d-313f-49da-ab7d-7e4053257c06" />
 
 
 ```
