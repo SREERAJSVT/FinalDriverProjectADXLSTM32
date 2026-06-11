@@ -96,9 +96,3 @@ This project reinforced the importance of modular architecture. By separating th
 
 ```
 
-### Next Steps for You:
-1. **Record the Video:** Follow the exact timings I laid out in the `README.md` template above. Point your camera at the screen showing the PuTTY terminal, then pan down to the physical board as you tilt the sensor so your professor can see the LEDs trigger at the exact moment the numbers on the screen spike.
-2. **Upload the Video:** Upload it to YouTube as "Unlisted", copy the link, and paste it into the `[Insert Your YouTube/Drive Link Here]` placeholder in your Readme.
-3. **ZIP it up:** Put the PDF, the Readme, and your code folder into a ZIP file and submit it!
-
-```
